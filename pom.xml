@@ -42,13 +42,14 @@
         <standalone.binary.root.folder>${project.basedir}/selenium_standalone_binaries</standalone.binary.root.folder>
         <browser>firefox</browser>
         <threads>1</threads>
+        <version>0</version>
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-server</artifactId>
-            <version>2.41.0</version>
+            <version>2.42.2</version>
             <scope>test</scope>
             <exclusions>
                 <exclusion>
